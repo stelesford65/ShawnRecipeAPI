@@ -13,4 +13,6 @@ Let's go ahead and create a model name it as `Recipe`. This model should be cons
 |  ingredients | string | to store the list of ingredients |
 |  directions | text | to store the recipe directions |
 |  notes | string | to store extra information about the recipe | 
-|  tag | string | list of tags that are associated with the recipe | 
+|  tag | string | list of tags that are associated with the recipe |
+
+Note: Don't forget to create the migration file and migrate the data. 
