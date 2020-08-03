@@ -5,7 +5,7 @@
 
 ## Part2
 
-Let's go ahead and create a model name it as "Recipe". This model should be consist of the following fields.
+Let's go ahead and create a model name it as `Recipe`. This model should be consist of the following `fields`.
  
 |Field  | Data type | Usage
 |--|--|--|
