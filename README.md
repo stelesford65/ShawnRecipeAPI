@@ -1,4 +1,4 @@
-# Recipes API
+# Recipes API Part 1
 
 ## Part1 - create the RESTful API app 
 - Using the following command `rails new recipe-api --api -skip-active-storage` create a new rest API project
@@ -20,7 +20,7 @@ Note: Don't forget to create the migration file and migrate the data.
 ## Part3 - create a controller  
 Create a `controller` name `recipes` using the following command: `rails generate controller recipes`.
 
-The RESTful API must consist of the endpoints.
+The RESTful API must consist of the endpoints (CRUD).
 
 |Prefix| Verb|URI Pattern| Controller#Action |
 |--|--|--|--|
