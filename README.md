@@ -33,3 +33,5 @@ The RESTful API must consist of the endpoints (CRUD).
 ||PATCH|/recipes/:id(.:format)|recipes#update|
 ||PUT|/recipes/:id(.:format)|recipes#update|
 ||DELETE|/recipes/:id(.:format)|recipes#destroy|
+
+## Part4 - Test your RESTful API using POSTMAN
