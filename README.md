@@ -22,12 +22,11 @@ Create a `controller` name `recipes` using the following command: `rails generat
 
 The RESTful API must consist of the endpoints.
 
-```text
-   Prefix Verb   URI Pattern                                                                              Controller#Action
-                              recipes GET    /recipes(.:format)                                                                       recipes#index
-                                      POST   /recipes(.:format)                                                                       recipes#create
-                               recipe GET    /recipes/:id(.:format)                                                                   recipes#show
-                                      PATCH  /recipes/:id(.:format)                                                                   recipes#update
-                                      PUT    /recipes/:id(.:format)                                                                   recipes#update
-                                      DELETE /recipes/:id(.:format)                                                                   recipes#destroy
-```
+|Prefix| Verb|URI Pattern| Controller#Action |
+|--|--|--|--|
+|recipes|GET| /recipes(.:format)| recipes#index|
+||POST|/recipes(.:format)|recipes#create|
+|recipe|GET|/recipes/:id(.:format)|recipes#show|
+||PATCH|/recipes/:id(.:format)|recipes#update|
+||PUT|/recipes/:id(.:format)|recipes#update|
+||DELETE|/recipes/:id(.:format)|recipes#destroy|
