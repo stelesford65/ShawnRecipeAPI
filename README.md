@@ -7,7 +7,7 @@ Using the following command `rails new recipe-api --api -skip-active-storage` cr
 
 Let's go ahead and create a model name it as `Recipe`. This model should be consist of the following `fields`.
 
-![Model ERD](3DTest.png)
+![Model ERD](recipes.png)
 
 
 |Field  | Data type | Usage
