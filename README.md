@@ -6,7 +6,10 @@ Using the following command `rails new recipe-api --api -skip-active-storage` cr
 ## Part2 - create a model
 
 Let's go ahead and create a model name it as `Recipe`. This model should be consist of the following `fields`.
- 
+
+![Model ERD](3DTest.png)
+
+
 |Field  | Data type | Usage
 |--|--|--|
 |  name | string | to store the recipe name |
