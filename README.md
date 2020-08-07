@@ -1,6 +1,6 @@
-# Recipes API Part 2
+# Recipes API Part 2 (Add model relationship)
 
-## Part1 - create the RESTful API app (Add model relationship)
+## Part1 - create the RESTful API app
 Using the following command `rails new recipe-api --api -skip-active-storage` create a new rest API project.
 
 ## Part2 - create a model
