@@ -18,6 +18,7 @@ Once you're completed adding all the fields and the reference don't forget to mi
 
 If you finished the task correctly, the final ER diagram should look like this.
 
+![Model categories](final-erd.png)
 
 ## Part3 - create a controller  
 Create a `controller` name `recipes` using the following command: `rails generate controller recipes`.
