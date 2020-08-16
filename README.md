@@ -1,7 +1,4 @@
-# Recipes API Part 1
-
-## Part1 - create the RESTful API app
-Using the following command `rails new recipe-api --api -skip-active-storage` create a new rest API project.
+# Recipes API Part 2
 
 ## Part2 - create a model
 
@@ -18,7 +15,9 @@ Let's go ahead and create a model name it as `Recipe`. This model should be cons
 |  notes | string | to store extra information about the recipe | 
 |  tags | string | list of tags that are associated with the recipe |
 
-Note: Don't forget to create the migration file and migrate the data.
+Great! So far we haven't created the Recipe table yet, and this is the ideal time to think about the relationship between `Recipe` and `Category` tables. In a real-world application, there could be many recipes that belong to a given category. We create this `reference` inside our `Recipe` table.
+
+Once you're completed adding all the fields and the reference don't forget to migrate the table.
 
 ## Part3 - create a controller  
 Create a `controller` name `recipes` using the following command: `rails generate controller recipes`.
