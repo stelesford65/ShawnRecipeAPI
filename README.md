@@ -4,9 +4,6 @@
 
 Let's go ahead and create a model name it as `Recipe`. This model should be consist of the following `fields`.
 
-![Model ERD](recipes.png)
-
-
 |Field  | Data type | Usage
 |--|--|--|
 |  name | string | to store the recipe name |
@@ -18,6 +15,9 @@ Let's go ahead and create a model name it as `Recipe`. This model should be cons
 Great! So far we haven't created the Recipe table yet, and this is the ideal time to think about the relationship between `Recipe` and `Category` tables. In a real-world application, there could be many recipes that belong to a given category. We create this `reference` inside our `Recipe` table.
 
 Once you're completed adding all the fields and the reference don't forget to migrate the table.
+
+If you finished the task correctly, the final ER diagram should look like this.
+
 
 ## Part3 - create a controller  
 Create a `controller` name `recipes` using the following command: `rails generate controller recipes`.
