@@ -63,7 +63,7 @@ end
 ```
 
 ## Part3 - create a controller  
-Create a `controller` name `recipes` using the following command: `rails generate controller recipes`.
+Create a `controller` name `Recipe` using the following command: `rails generate controller recipes`.
 
 The RESTful API must consist of the endpoints (CRUD).
 
